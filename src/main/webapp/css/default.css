@@ -1,0 +1,30 @@
+@charset "EUC-KR";
+
+
+div {
+	margin-top: 20px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid lightgray;
+	padding: 5px;
+}
+
+tr:nth-child(even) {
+	background-color: white;
+}
+
+tr:nth-child(odd) {
+	background-color: lightgray;
+}
+
+th {
+	color: white;
+	background-color: #00AB6F;
+	height: 50px;
+}
